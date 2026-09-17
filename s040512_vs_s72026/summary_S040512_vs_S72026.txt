@@ -1,0 +1,33 @@
+================================================================================
+MIRROR COMPARISON SUMMARY: S040512 vs S72026
+================================================================================
+
+Performance Metrics
+--------------------------------------------------------------------------------
+Metric                    Mirror A (mean±SD)        Mirror B (mean±SD)       
+--------------------------------------------------------------------------------
+rms_error                 2.1224±1.6231          0.9392±0.5149
+max_error                 8.0813±5.1117          7.0202±4.9135
+std_error                 1.3502±0.7398          0.7671±0.3621
+mean_abs_error            1.7950±1.4602          0.6854±0.4391
+settling_time             0.3420±0.1582          0.2662±0.1541
+rejection_ratio           5.3150±2.6998          10.6711±4.9283
+
+Statistical Tests
+--------------------------------------------------------------------------------
+Test                                     p-value         Significant  Effect Size
+--------------------------------------------------------------------------------
+rms_error_Mann-Whitney U test            0.000000        Yes          1.337
+max_error_Mann-Whitney U test            0.221671        No           0.233
+max_error_Paired t-test                  0.000035        Yes          0.233
+std_error_Mann-Whitney U test            0.000000        Yes          1.373
+mean_abs_error_Mann-Whitney U test       0.000000        Yes          1.598
+mean_abs_error_Paired t-test             0.000000        Yes          1.598
+settling_time_Mann-Whitney U test        0.022840        Yes          0.485
+settling_time_Paired t-test              0.000037        Yes          0.485
+rejection_ratio_Welch's t-test           0.000000        Yes          -1.444
+
+Recommendation
+--------------------------------------------------------------------------------
+Select S72026: Significantly better RMS error performance (p<0.05)
+================================================================================
